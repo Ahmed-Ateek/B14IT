@@ -3,23 +3,22 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR.js Fixed</title>
-    <!-- Load A-Frame -->
+    <title>AR Text</title>
+    <!-- Load A-Frame and AR.js -->
     <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
-    <!-- Load Latest AR.js -->
     <script src="https://cdn.jsdelivr.net/npm/@ar-js-org/ar.js@3.4.3/aframe/build/aframe-ar.min.js"></script>
   </head>
   <body style="margin: 0; overflow: hidden;">
     <a-scene embedded arjs>
       <!-- Hiro Marker -->
       <a-marker preset="hiro">
-        <!-- Text Entity -->
+        <!-- Display Text -->
         <a-entity
           text="value: IT VISION\nTo be the technological backbone that propels KAUST to the forefront of global research and education through innovative, reliable, and cutting-edge IT solutions.\n\nIT MISSION\nTo empower the KAUST community with exceptional IT services that enhance learning, research, and operational efficiency, fostering a culture of innovation and excellence.\n\nIT CORE VALUES\n1. Customer Centricity\n2. Results Orientation\n3. Collaboration & Teamwork\n4. Service Excellence\n5. Integrity;
-                align: center; 
-                color: blue; 
-                width: 5;"
-          position="0 0.5 0"
+                align: center;
+                color: blue;
+                width: 4;"
+          position="0 1 0"
           scale="1 1 1">
         </a-entity>
       </a-marker>
